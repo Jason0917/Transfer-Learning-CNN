@@ -7,19 +7,17 @@ Simply run
 ```
 python main.py
 ```
-<br>
 
 ## Parameters Setting of CNN
 | Learning rate | Epoches |
 | :-: | :-: |
 | 0.0001 | 15 |
-<br>
 
 ## Parameters Setting of Transfer Learning
 | Learning rate | Epoches |
 | :-: | :-: |
 | 0.005 | 30 |
-<br>
+
 
 ## Experiment Results
 ### CNN
