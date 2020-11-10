@@ -34,3 +34,8 @@ python main.py
 | Training accuracy | Validation accuracy |
 | :-: | :-: |
 | 87.42% | 83.84% |
+
+## Comparision and Analysis
+Compared with training a CNN model from scratch, our transfer-learning-based model performed much better. Although CNN model achieved an accuracy of 89.63% on training set, its accuracy on validation set significantly dropped to 66.99%, which means the model is poor-generalized. In my opinion, this happened because our dataset is not sufficient enough to train a model from scratch. 
+<br>
+Therefore, with a dataset containing over 2,000 images, it would be better for us to use transfer learning to train our own model. As is shown in Experiment Results section, both training and validation accuracy of the model using transfer learning is quite high, and the difference between training and validation accuracy is small, which means the models are generalized.
